@@ -48,12 +48,15 @@ dependencies:
   http: ^0.13.5
   flutter_overlay_loader:
   email_validator:
-  flutter_native_timezone:
+  #flutter_native_timezone:
   intl:
   shared_preferences:
   flutter_localization:
   translator: ^0.1.7
   url_launcher: ^6.1.11
+  flutter_native_timezone:
+    git:
+      url: https://github.com/OmarBakry-eg/flutter_native_timezone
 
 
 
