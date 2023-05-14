@@ -21,7 +21,7 @@ class OldVersion extends StatelessWidget {
               SizedBox(height: h*.05,),
               Column(
                 children: [
-                  Text("Ticketing ${gettranslated(context, "Version")} ${version_app.value}",
+                  Text("Ticketing ${gettranslated(context, "Version")} 1.1",
                     style: TextStyle(
                         fontSize: w*.045,
                         color: Colors.grey.shade700,

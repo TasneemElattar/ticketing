@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 import '../services/localization_methods.dart';
 //String baseUrl="http://svhelp.help.svcustomer.com/";
-String baseUrl = "http://help.svcustomer.com/admin"; //production
+String baseUrl = "http://help.svcustomer.com/"; //production
 
 class Auth{
 
