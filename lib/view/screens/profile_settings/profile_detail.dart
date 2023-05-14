@@ -95,6 +95,8 @@ class _ProfileDetailState extends State<ProfileDetail> {
                     icon: Icon(Icons.notifications)),
               ),
             ),
+            SizedBox(width: width*.07,)
+
           ],
         ),
         drawer: Container(width: width * .7, child: DrawerPage()),
@@ -144,7 +146,7 @@ class _ProfileDetailState extends State<ProfileDetail> {
                   radius: width * .1,
                   backgroundColor: _themeProvider.backgroundColor,
                   backgroundImage: adminProvider.user_image==''?
-                  NetworkImage('assets/images/icon.png')
+                  AssetImage('assets/images/icon.png') as ImageProvider
                       :NetworkImage(adminProvider.user_image),
                   // Auth.user_image==''?
                   // Image.asset('assets/images/icon.png',color: _themeProvider.primaryColorLight,fit: BoxFit.cover,):

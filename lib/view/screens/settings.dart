@@ -74,6 +74,8 @@ class _SettingsState extends State<Settings> {
                   icon: Icon(Icons.notifications)),
             ),
           ),
+          SizedBox(width: width*.07,)
+
           // IconButton(onPressed: () {}, icon: Icon(Icons.search))
         ],
 

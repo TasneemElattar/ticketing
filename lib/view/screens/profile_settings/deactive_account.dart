@@ -59,7 +59,9 @@ class _DeactiveAccountState extends State<DeactiveAccount> {
                   icon: Icon(Icons.notifications)),
             ),
           ),
-        //  IconButton(onPressed: () {}, icon: Icon(Icons.search))
+          SizedBox(width: width*.07,)
+
+          //  IconButton(onPressed: () {}, icon: Icon(Icons.search))
         ],
       ),
       drawer: Container(width: width * .7, child: DrawerPage()),
@@ -99,7 +101,7 @@ class _DeactiveAccountState extends State<DeactiveAccount> {
               radius: width * .1,
               backgroundColor: _themeProvider.backgroundColor,
               backgroundImage: adminProvider.user_image==''?
-              NetworkImage('assets/images/icon.png')
+              AssetImage('assets/images/icon.png') as ImageProvider
                   :NetworkImage(adminProvider.user_image),
               // Auth.user_image==''?
               // Image.asset('assets/images/icon.png',color: _themeProvider.primaryColorLight,fit: BoxFit.cover,):
